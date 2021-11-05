@@ -22,7 +22,7 @@ function App() {
         <header>
             <input className="search" 
             type="search" 
-            placeholder="Search..."/>
+            placeholder="Search for movie..."/>
         </header>
         <div className="movie-container">
             {movies.length > 0 && 
