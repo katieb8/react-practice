@@ -32,3 +32,21 @@ const fragmentExample = (
       <p>I am a paragraph too.</p>
     </>
 );
+
+// use className instead of 'class'
+
+// If statements:
+// can use if statements, just needs to be outside the JSX, or use a ternary expression (and to embed a JavaScript expression inside JSX, the JS needs to be wrapped with curly braces {} )
+//using an if statement outside the JSX:
+const x = 5;
+let text = "Goodbye";
+if (x < 10) {
+  text = "Hello";
+}
+
+const myElement3 = <h1>{text}</h1>;
+
+// if statement using ternary expression:
+const xx = 5;
+
+const myElement4 = <h1>{(x) < 10 ? "Hello" : "Goodbye"}</h1>;
